@@ -8,4 +8,8 @@ def main(a,b,c):
     Returns:
         bool: answer
     """
-    return
+    return a>b>c
+
+x=main(9,4,0)
+
+print(x)
