@@ -8,6 +8,6 @@ def main(a):
     """
     return (a//10)*10+(a%10)==a
 
-x=main(34)
+x=main(int(34))
 
 print(x)
