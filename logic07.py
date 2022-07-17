@@ -7,8 +7,8 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    return a<0 and b<0
+    return a<0 or b<0
 
-x=main(23, -3)
+x=main(23, -13)
 
 print(x)
