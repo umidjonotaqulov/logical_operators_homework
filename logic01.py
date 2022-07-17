@@ -10,6 +10,6 @@ def main(a,b,c):
     """
     return a>b>c
 
-x=main(9,4,0)
+x=main(9,4,1)
 
 print(x)
