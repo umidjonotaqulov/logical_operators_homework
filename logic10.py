@@ -6,7 +6,7 @@ def main(a):
     Returns:
         bool: answer
     """
-    return a//10>0 or a//10<0
+    return (a//10)*10+(a%10)==a
 
 x=main(34)
 
