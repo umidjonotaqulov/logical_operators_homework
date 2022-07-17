@@ -6,4 +6,8 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    return a%10>0 and a//10>0 and int(a)==a
+
+x=main(34)
+
+print(x)
