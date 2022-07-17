@@ -6,4 +6,8 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    return a//10==a%10
+
+x=main(33)
+
+print(x)
