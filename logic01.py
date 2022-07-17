@@ -8,8 +8,19 @@ def main(a,b,c):
     Returns:
         bool: answer
     """
-    return a>b>c
+    return int(a)>int(b)>int(c)
 
 x=main(9,4,1)
 
 print(x)
+def main(a,b,c):
+    """
+    Uchta a, b, c butun sonlar berilgan bo‘lsa, quyidagi “b soni a va c o‘rtasida” degan gapni tekshiring.
+    Args:
+        a(int): a parametri
+        b(int): b parametri
+        c(int): c parametri
+    Qaytaradi:
+        bool: javob
+    """
+    qaytish
