@@ -8,6 +8,6 @@ def main(a):
     """
     return 99>a>10 or -99<a<-10
 
-x=main(60)
+x=main(95)
 
 print(x)
