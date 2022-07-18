@@ -8,6 +8,6 @@ def main(a):
     """
     return (int(a)//10)>0 or (int(a)//10)<0
 
-x=main(63)
+x=main(36)
 
 print(x)
