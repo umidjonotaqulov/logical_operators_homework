@@ -6,7 +6,7 @@ def main(a):
     Returns:
         bool: answer
     """
-    return 99>a>10 or -99<a<-10
+    return 99>int(a)>10 or -99<int(a)<-10
 
 x=main(95)
 
