@@ -6,7 +6,7 @@ def main(a):
     Returns:
         bool: answer
     """
-    return (a//100)*100+((a//10)%10)*10+a%10==a
+    return (int(a)//100)>0 or (int(a)//100)<0
 
 x=main(345)
 
