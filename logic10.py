@@ -6,9 +6,8 @@ def main(a):
     Returns:
         bool: answer
     """
-    return (int(a)//10)>0 and (int(a)//10)<0
+    return (int(a)//10)>0 or (int(a)//10)<0
 
-x=main(3)
+x=main(63)
 
 print(x)
- 
