@@ -8,7 +8,7 @@ def main(a,b,c):
     Returns:
         bool: answer
     """
-    return int(c)>int(b)>int(a)
+    return int(a)>int(b)>int(c)
 
 x=main(19, 14, 11)
 
