@@ -6,4 +6,8 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    return (int(a)//10000)>0 or (int(a)//10000)<0
+
+x=main(54321)
+
+print(x)
