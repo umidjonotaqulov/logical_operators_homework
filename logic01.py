@@ -8,8 +8,8 @@ def main(a,b,c):
     Returns:
         bool: answer
     """
-    return int(a)>int(b)>int(c)
+    return a<b<c
 
-x=main(19, 14, 11)
+x=main(3, 4, 5)
 
 print(x)
